@@ -1,0 +1,29 @@
+.container{
+ background-color: gray;
+ height: 400px;
+ width: 300px;
+ align-items: center;
+ margin: auto;
+ border: 2px solid red;
+}
+.header{
+    background-color: white;
+    height: 100px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 50px;
+    border: unset;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.input_vlaue{
+    margin-top: 3px;
+}
+#show_value{
+    border: unset;
+    font-size: 20px;
+}

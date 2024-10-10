@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <input type="text" id="show_value" maxlength="10">
+        </div>
+        <div class="input_vlaue">
+            <button type="button" class="btn" value="9" onclick="handleClearField()">C</button>
+            <button type="button" class="btn" value="8" onclick="handleInsertValue()">8</button>
+            <button type="button" class="btn" value="7" onclick="handleInsertValue()">7</button>
+            <button type="button" class="btn" value="+" onclick="handleInsertValue('+')">+</button>
+        </div>
+        <div class="input_vlaue">
+            <button type="button" class="btn" value="9" onclick="handleInsertValue(9)">9</button>
+            <button type="button" class="btn" value="8" onclick="handleInsertValue(8)">8</button>
+            <button type="button" class="btn" value="7" onclick="handleInsertValue(7)">7</button>
+            <button type="button" class="btn" value="-" onclick="handleInsertValue('-')">-</button>
+        </div>
+        <div class="input_vlaue">
+            <button type="button" class="btn" value="6"onclick="handleInsertValue(6)">6</button>
+            <button type="button" class="btn" value="5"onclick="handleInsertValue(5)">5</button>
+            <button type="button" class="btn" value="4"onclick="handleInsertValue(4)">4</button>
+            <button type="button" class="btn" value="*"onclick="handleInsertValue('*')">x</button>
+        </div>
+        <div class="input_vlaue">
+            <button type="button" class="btn" value="3" onclick="handleInsertValue(3)">3</button>
+            <button type="button" class="btn" value="2" onclick="handleInsertValue(2)">2</button>
+            <button type="button" class="btn" value="1" onclick="handleInsertValue(1)">1</button>
+            <button type="button" class="btn" value="/" onclick="handleInsertValue('/')">/</button>
+        </div>
+        <div class="input_vlaue">
+            <button type="button" class="btn" value="0" onclick="handleInsertValue(0)">0</button>
+            <button type="button" class="btn" value="=" onclick="handleCalculation('=')">=</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
